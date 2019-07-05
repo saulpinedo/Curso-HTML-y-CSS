@@ -1,0 +1,18 @@
+@media (max-width:700px){
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    .product{
+        margin-top: auto;
+    }
+    .features{
+        display: inherit;
+    }
+    .mentions{
+        display: inherit;
+    }
+    .mention{
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--sirve para poder usar acentos y ñ"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brand</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+</head>
+<body>
+
+    <!-- --------------------------Aquí empieza el nav bar -->
+    <nav class="fadeInDown">
+        <div class="brand_image">
+                <a href="index.html"> <img src="images/logo.png" alt=""></a>
+        </div>
+        <div class="nav_options">
+            <ul>
+                <li><a href="">FAQs</a></li>
+                <li><a href="product.html">Producto y descripción</a></li>
+            </ul>
+        </div>
+    </nav>
+<!-- -------------------------------Container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4"> 
+                <div class="modulo-pago">
+                    <div class="modulo-pago-image-content">
+                        <img src="images/box2.png" alt="">
+                    </div>
+                    <h3>producto1</h3>
+                    <p>adsf adf adf adsf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="modulo-pago">
+                    <div class="modulo-pago-form-content">
+                        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AX3PLJZMVGRZS" method="POST">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name">
+
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email">
+
+                            <label for="telefono">Teléfono</label>
+                            <input type="text" name=phone>
+
+                            <input type="submit" value="Comprar" class="submit" name="submit">
+                           
+                            <!-- <script
+                            src="https://www.paypal.com/sdk/js?client-id=sb">
+                          </script> -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------------------------------Aquí empieza el footer -->
+    <footer>
+        <p><strong>esto es el footer</strong> </p>
+        <img src="images/logo.png" alt="">
+    </footer>
+<script src="js/script.js"></script>      
+
+</body>
+</html>

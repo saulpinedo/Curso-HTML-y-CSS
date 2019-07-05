@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+:root{
+    /* colores */
+    --green-color: #7acc2d;
+    --white-color: white;
+    --dark-green: green;
+    --black-color: black;
+    /* espacios */
+    --padding10px:10px;
+    /* boxshadow */
+    --box-shadow:0px 0px 4px 0px #adadad;
+}
+/* ---------------------NAV BAR */
+nav{
+    display: flex;
+    background-color:var(--green-color);
+    padding:10px;
+    font-size: 12px;
+    font-family:Helvetica, sans-serif;
+    color:var(--white-color);
+    justify-content: space-between;
+    /* separa los tag dentro del nav, por eso hay 2 div. los separa uno a cada extremo */
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    /* flex cambia el orden de los tag a horizontal */
+}
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+nav li a{
+    color:var(--white-color);
+    text-decoration: none;
+}
+nav li a:hover{
+    color:var(--dark-green);
+}
+/* ---------------------MAIN SECTION */
+.main_section{
+    padding: 5% 15% 10% 15%;
+    text-align: center;
+}
+.products{
+    background-image: url("../images/curve.png");
+    max-height: auto;
+    background-size: cover;
+    background-position: center top;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+ }
+.product{
+    max-width: 360px;;
+    padding: 30px;
+    margin-top:-100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product .content{
+    background-color: var(--white-color);
+    padding:var(--padding10px);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow)
+}
+.main-button{
+    background-color: var(--green-color);
+    padding: var(--padding10px);
+    width: 100%;
+    border-radius: 2px;
+    font-size: 12px;
+    color:var(--white-color);
+    cursor: pointer;
+    box-shadow:var(--box-shadow);
+}
+.main-button:hover{
+    background-color: #71b234;
+}
+/* ____________________________FEATURES */
+.features{
+    background-color:white;
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.feature{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.feature .feature-contend{
+    padding:25px;
+}
+.feature .feature-contend img{
+    height: 150px;
+}
+/*  -___________________________MENTIONS */
+.mentions{
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top:5%;
+}
+.mention{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: #adadad solid 1px;
+    border-radius: 10px;
+}
+.mention-contend .mention-image-contend{
+    background-color:gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* ------------------------------VENTA */
+.modulo-pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box-shadow);
+    padding: var(--padding10px); 
+
+}
+.modulo-pago-image-content {
+    text-align: center;
+}
+form input{
+    display: block;
+    margin-top: var(--padding10px);
+    margin-bottom: var(--padding10px);
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-sizing: border-box; 
+    /* box sizing respeta el ancho del padre */
+}
+.submit{
+    background-color: var(--green-color);
+    color: var(--white-color);
+    border: none;
+}
+.submit:hover{
+    background-color: var(--dark-green);
+}
+
+
+/* ______________________________FOOTER */
+footer{
+    background-color: var(--green-color);
+    height: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex
+}

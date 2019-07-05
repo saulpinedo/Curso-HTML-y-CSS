@@ -1,0 +1,13 @@
+body{
+    background-color: var(--black-color);
+    text-align: center;
+    color: var(--white-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-paypal a{
+    color: var(--green-color);
+    
+}
